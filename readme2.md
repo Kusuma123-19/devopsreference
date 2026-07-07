@@ -136,7 +136,7 @@ tree
 
 # Step 23: Run the Spring Boot Application
 
-java -jar target/book-my-ticket-0.0.1-SNAPSHOT.jar
+java -jar target/book-my-ticket-0.0.1-SNAPSHOT.war
 
 # Step 24: Access the Application
 
