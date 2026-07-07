@@ -81,7 +81,7 @@ mv apache-maven-3.9.16 maven
 
 # Step 15: Configure Maven PATH
 
-echo export PATH=/root/maven/bin:/c/Users/user/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/user/bin:/c/Program Files/Common Files/Oracle/Java/javapath:/c/oraclexe/app/oracle/product/11.2.0/server/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/Java/jdk-23/bin:/c/ProgramData/miniconda3/condabin:/c/Program Files/Tesseract-OCR:/c/mingw/bin: C:/Program Files/Java/jdk-17/bin:/c/maven/apache-maven-3.9.15/bin:/cmd:/c/Program Files/nodejs:/c/Users/user/Downloads/terraform_1.15.6_windows_386:/c/Users/user/Downloads/eclipse-jee-2026-06-R-win32-x86_64/eclipse:/c/Users/user/AppData/Local/Programs/Python/Python38/Scripts:/c/Users/user/AppData/Local/Programs/Python/Python38:/c/Users/user/AppData/Local/Microsoft/WindowsApps:/c/Program Files/Python313:/c/Program Files/Python313/Scripts:/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/JetBrains/PyCharm 2022.1.4/bin:/c/ProgramData/miniconda3/condabin:/c/Program Files/Tesseract-OCR:/c/Program Files/JetBrains/IntelliJ IDEA 2026.1.1/bin:/c/Users/user/AppData/Local/Programs/Antigravity/bin:/c/Users/user/AppData/Roaming/npm:/usr/bin/vendor_perl:/usr/bin/core_perl >> ~/.bashrc
+echo export PATH=/root/maven/bin:$PATH >> ~/.bashrc
 
 # Step 16: Reload Bash Configuration
 
